@@ -1,0 +1,65 @@
+body{
+    background-color: #808080;
+}
+
+.title{
+    font-size: 30px;    
+}
+
+#rt {
+    color: #401313;
+}
+
+#rt::after {
+    content: "";
+    display: block;
+    width: 364px;
+    top: 5px;
+    border-bottom: 10px solid #ffb37c;
+    left: 0px;
+    position: relative;
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 100px;
+    top: 5px;
+    border-bottom: 10px solid #4effbe;
+    left: 0px;
+    position: relative;
+}
+
+a{
+    color: fuchsia;
+}
+
+.active{
+    color: beige;
+}
+
+.logo{
+    position: relative;
+    float: right;
+    top: 10px;;
+}
+
+.page {
+    position: relative;
+    top: 10px;
+    background-color: black;
+    width: 100px;
+    height: 40px;
+    vertical-align: middle;
+    color: coral;
+    line-height: 2.4;
+    text-align: center;       
+    float: left;    
+    
+}
+
+
+.text{
+    text-align: justify;
+    min-height: 1000px;
+}
