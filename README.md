@@ -1,2 +1,2 @@
-# reading-time
+# ⏰ Reading Time
 reading time with javascript 
